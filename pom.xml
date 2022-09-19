@@ -15,7 +15,10 @@
 	<name>cicd</name>
 	<description>Demo project for Spring Boot</description>
 	<properties>
-		<java.version>8</java.version>
+		<java.version>11</java.version>
+		<sonar.host.url>http://3.110.81.35:9000/</sonar.host.url>
+		<sonar.login>admin</sonar.login>
+		<sonar.password>Devops@1</sonar.password>
 	</properties>
 	<dependencies>
 		<dependency>
